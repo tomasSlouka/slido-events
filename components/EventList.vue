@@ -14,27 +14,6 @@
                 <p>{{ item.short_description }}</p>
                 <nuxt-link :to='"/event/detail/" + item.id' tag='button' class='button small'>Show More</nuxt-link>
           </div>
-
-
-
-
-          <!-- <div class='box grid gap-20 justify-items-start'>
-                <img src="https://www.sli.do/build/img/index/slido-use-case-team-meetings-77ca321f65.jpg" alt="cover">
-                <h3>Lorem, ipsum dolor.</h3>
-                <div class='grid col-3 auto justify-content-start gap-10'>
-                    <span class='tag gray justify-self-start'> 22.01.2020</span>
-                    <span class='tag gray justify-self-start'> 18:00 -20:00</span>
-                    <span class='tag gray justify-self-end'> 5 €</span>
-                </div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa consectetur atque officia nam quod facere, quam quaerat deleniti repellat. Atque.</p>
-                <nuxt-link to='/event/detail' tag='button' class='button small'>Show More</nuxt-link>
-          </div>
-          <div class='box grid gap-20 justify-items-start'>
-                <img src="https://www.sli.do/build/img/index/slido-use-case-conferences-609c81c805.jpg" alt="cover">
-                <h3>Lorem, ipsum dolor.</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa consectetur atque officia nam quod facere, quam quaerat deleniti repellat. Atque.</p>
-                <nuxt-link to='/event/detail' tag='button' class='button small'>Show More</nuxt-link>
-          </div> -->
       </div>
 
   </div>
